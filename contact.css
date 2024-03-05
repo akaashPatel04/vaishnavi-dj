@@ -1,0 +1,212 @@
+main {
+    height: 90vh;
+    width: 100vw;
+    background-color: #000;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 26vh;
+}
+
+main>.left {
+    height: 100%;
+    width: 50%;
+    padding: 5vh 5vw;
+}
+
+main>.left>h1 {
+    color: #08E3DD;
+    font-size: 4vw;
+    filter: drop-shadow(0 0 18px #08E3DD);
+}
+
+main>.left>p {
+    color: #fff;
+    font-size: 1.5vw;
+    line-height: 1.6;
+    margin: 5vh 0;
+}
+
+main>.left>a {
+    background-color: #08E3DD;
+    border-radius: 5vw;
+    padding: 0.75vw 1.5vw;
+    color: #000000;
+    font-size: 1.5vw;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+main>.left>a>i {
+    color: #000000 !important;
+    font-size: 2vw;
+    font-weight: 100;
+}
+
+main>.right {
+    height: 100%;
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+main>.right>div {
+    height: 60vh;
+    width: 60vh;
+    background-color: #08E3DD;
+    position: absolute;
+    border-radius: 50%;
+}
+
+main>.right>img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    z-index: 5;
+    filter: contrast(1.5);
+}
+
+#main {
+    height: 70vh;
+    width: 100vw;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5vh 8vw;
+}
+
+#main>.map {
+    height: 100%;
+    width: 50%;
+    padding: 5vh 5vw;
+}
+
+#main>.map-det {
+    height: 100%;
+    width: 50%;
+    padding: 15vh 5vw;
+}
+
+
+#main>.map-det>h1 {
+    color: #08E3DD;
+    font-size: 3vw;
+}
+
+#main>.map-det>p {
+    color: #fff;
+    font-size: 1.5vw;
+    line-height: 1.6;
+    margin: 3vh 0;
+}
+
+#main>.map-det>a {
+    background-color: #08E3DD;
+    border-radius: 5vw;
+    padding: 0.75vw 1.5vw;
+    color: #000000;
+    font-size: 1.5vw;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#main>.map-det>a>i {
+    color: #000000 !important;
+    font-size: 2vw;
+    font-weight: 100;
+}
+
+
+
+@media (max-width:600px) {
+    main {
+        height: 100vh;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-top: 18vh;
+    }
+
+    main>.left {
+        height: 45%;
+        width: 100%;
+        padding: 0 5vw;
+    }
+
+    main>.left>h1 {
+        font-size: 9vw;
+    }
+
+    main>.left>p {
+        font-size: 3.5vw;
+        line-height: 1.95;
+        margin: 4vh 0;
+    }
+
+    main>.left>a {
+        border-radius: 10vw;
+        padding: 3vw 8vw;
+        font-size: 5vw;
+    }
+
+    main>.left>a>i {
+        font-size: 6vw;
+    }
+
+    main>.right {
+        height: 55%;
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+    main>.right>div {
+        height: 38vh;
+        width: 38vh;
+    }
+
+
+    #main {
+        height: 90vh;
+        width: 100vw;
+        background-color: #1a1a1a;
+        display: flex;
+        flex-direction: column;
+        justify-content: start !important;
+        padding: 8vh 2vw;
+    }
+
+    #main>.map {
+        height: 60%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2vw 2vw;
+    }
+
+    #main>.map-det {
+        height: 40%;
+        width: 100%;
+        padding: 9vh 8vw;
+    }
+
+    #main>.map-det>h1 {
+        font-size: 8vw;
+    }
+
+    #main>.map-det>p {
+        font-size: 4vw;
+        margin: 3vh 0;
+    }
+
+    #main>.map-det>a {
+        border-radius: 10vw;
+        padding: 2vw 4vw;
+        font-size: 4vw;
+    }
+
+    #main>.map-det>a>i {
+        font-size: 5vw;
+    }
+}

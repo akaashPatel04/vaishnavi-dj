@@ -345,7 +345,7 @@
     }
 
     #page3 {
-        height: 80vh;
+        height: fit-content;
     }
 
     #page3>p {
@@ -373,9 +373,8 @@
     #page4 {
         height: 95vh;
         flex-direction: column;
-        margin-top: 10vh;
         gap: 3vw;
-        padding: 5vw auto;
+        padding: 10vh 0;
     }
 
     .elem {

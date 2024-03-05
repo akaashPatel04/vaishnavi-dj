@@ -20,17 +20,6 @@ body {
     color: #08E3DD;
 }
 
-body::-webkit-scrollbar {
-    display: block;
-    width: 8px;
-    background: #08E3DD;
-}
-
-body::-webkit-scrollbar-thumb {
-    background-color: #fff;
-    border-radius: 50px;
-}
-
 body {
     overflow-x: hidden;
 }
@@ -181,7 +170,6 @@ body {
         gap: 5vw;
         padding: 4vh 0 4vh 8vw;
         overflow: hidden;
-        margin-top: 8vh;
     }
 
     #footer>img {
@@ -272,7 +260,6 @@ body {
         gap: 6.5vw;
         padding: 0 0 8vh 12vw;
         overflow: hidden;
-        margin-top: 8vh;
     }
 
     #footer>img {
