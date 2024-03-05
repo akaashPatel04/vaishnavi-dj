@@ -1,39 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "montserrat";
-  color: #fff;
-  font-family: sans-serif;
-}
-
-html,
-body {
-  height: 100%;
-  width: 100%;
-  scroll-behavior: smooth;
-}
-
-*::selection {
-  background-color: #fff;
-  color: #08E3DD;
-}
-
-body::-webkit-scrollbar {
-  display: block;
-  width: 8px;
-  background: #08E3DD;
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: #fff;
-  border-radius: 50px;
-}
-
-body {
-  overflow-x: hidden;
-}
-
 #cursor {
   height: 20px;
   width: 20px;
@@ -53,33 +17,6 @@ body {
   filter: blur(100px);
   z-index: 9;
   transition: all linear 0.4s;
-}
-
-#nav {
-  height: 130px;
-  width: 100%;
-  max-width: 100vw !important;
-  display: flex;
-  align-items: center;
-  padding: 0 10vmax;
-  gap: 6vmax;
-  position: fixed;
-  justify-content: flex-start;
-  z-index: 999;
-}
-
-#nav img {
-  height: 4.5vmax;
-  filter: brightness(1.5);
-  margin-right: 25vmax;
-}
-
-#nav a {
-  text-transform: uppercase;
-  font-weight: 500;
-  cursor: pointer;
-  font-size: 1.15vw;
-  text-decoration: none;
 }
 
 video {
@@ -115,7 +52,7 @@ video {
 }
 
 #page1 h1::before {
-  content: "DANCE. ENJOY. PLAY.";
+  content: "नृत्य. आनंद. संगीत.";
   position: absolute;
   color: #000;
   top: -5px;
@@ -433,76 +370,4 @@ video {
   font-family: gilroy;
   color: #000;
   -webkit-text-stroke: 2px #fff;
-}
-
-#footer {
-  height: 40vh;
-  width: 100%;
-  background: linear-gradient(to left bottom, #08E3DD 0%, #6A3EE1 80%);
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 4vw;
-}
-
-#footer>img {
-  position: absolute;
-  left: 0;
-  height: 100%;
-  z-index: 0;
-}
-
-#f1 img {
-  height: 100px;
-  filter: contrast(1.5) brightness(1.5);
-}
-
-#f1,
-#f2,
-#f3,
-#f4 {
-  width: 24%;
-  position: relative;
-  z-index: 99;
-}
-
-#f2 h3 {
-  font-size: 1.6vw;
-  white-space: nowrap;
-  text-transform: uppercase;
-  color: #000;
-  font-weight: 600;
-  margin-bottom: 8px;
-}
-
-#f3 a {
-  font-size: 1.75vw;
-  white-space: nowrap;
-  color: #000;
-  font-weight: 500;
-  margin-bottom: 8px;
-  text-decoration: none;
-  display: inline-block;
-  line-height: 26px;
-}
-
-#f3 a i {
-  font-size: 2vw;
-  color: #000;
-  margin-right: 0.5vw;
-}
-
-#f4 h4 {
-  font-size: 1.75vw;
-  white-space: nowrap;
-  color: #000;
-  font-weight: 500;
-  line-height: 26px;
-  margin-bottom: 8px;
-}
-
-#f4 h4 i {
-  font-size: 2vw;
-  color: #000;
 }
