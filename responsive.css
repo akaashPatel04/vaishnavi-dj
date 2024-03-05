@@ -106,7 +106,7 @@
     }
 
     #about-us {
-        height: 115vh;
+        height: 110vh;
         width: 100%;
         max-width: 100%;
         display: flex;
@@ -114,7 +114,7 @@
         flex-direction: column;
         position: relative;
         z-index: 10;
-        margin-top: 15vh;
+        margin-top: 10vh;
     }
 
     #about-us img {
@@ -128,7 +128,7 @@
     #about-us-in {
         width: 100%;
         text-align: center;
-        margin: 10vh auto;
+        margin: 6vh auto;
     }
 
     #about-us-in h3 {
