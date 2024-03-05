@@ -131,6 +131,10 @@
         margin: 6vh auto;
     }
 
+    video {
+        scale: 5;
+    }
+
     #about-us-in h3 {
         font-size: 42px;
         margin-bottom: 5px;
@@ -407,19 +411,11 @@
         transition: all ease 0.6s;
     }
 
-    .overlay {
-        padding: 4vw;
-        padding-top: 8vh;
-    }
-
     .overlay h4 {
         font-size: 35px;
         margin-bottom: 16px;
     }
 
-    .overlay p {
-        font-size: 24px;
-    }
 
     #green-div h4 {
         width: 70%;
